@@ -3,7 +3,6 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.0'
 
 gem 'heroku'
-#gem 'pg'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -31,6 +30,7 @@ gem 'jquery-rails'
 
 group :developement do
   gem 'rspec-rails'
+  gem 'pg'
 end
 
 group :test do
